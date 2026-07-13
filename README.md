@@ -25,3 +25,11 @@
 - IG carousel：`?utm_source=instagram&utm_medium=organic_social&utm_campaign=2627_preseason_manuals&utm_content=carousel`
 - IG Story：`?utm_source=instagram&utm_medium=organic_social&utm_campaign=2627_preseason_manuals&utm_content=story`
 - 小紅書：`?utm_source=xiaohongshu&utm_medium=organic_social&utm_campaign=2627_preseason_manuals&utm_content=evergreen_note`
+
+## Live 驗證（2026-07-13 JST）
+
+- 共同入口、三組通路 UTM、三張圖片資產均為 HTTP 200；query string 保留。
+- 從 live 入口實際點擊雙板／單板 CTA，均進入正確 Open Cute 學員版，內部 referral UTM 保留。
+- 入口以 390×844 手機版與 1440×900 桌機版 render；兩張卡片可辨識，無水平溢出。
+- `sbtraining.snowplus.school` 與 `sbmanual.snowplus.school` 目前 TLS 憑證不符合網域，10/14 不使用這兩個短網址。
+- GitHub Pages 的中國境內可用性尚未由當地網路 live 驗證；小紅書必須保留私訊／留言「手冊」fallback，不把外鏈當唯一承接。
